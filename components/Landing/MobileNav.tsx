@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/sheet";
 import Link from "next/link";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 function MobileNav() {
   return (
@@ -51,9 +50,9 @@ function MobileNav() {
 
             <SheetDescription>
               <Link href="/registers">
-                <Button className=" bg-[#23AD7C] text-[#FFFFFF] pl-[30px] pr-[30px] text-[18px]  mt-5 flex gap-4 items-center p-2 rounded-lg w-full max-w-60">
+                <button className=" bg-[#23AD7C] text-[#FFFFFF] pl-[30px] pr-[30px] pt-[10px]  pb-[10px]  mt-5 flex gap-4 items-center p-2 rounded-lg w-fit max-w-60">
                   Login
-                </Button>
+                </button>
               </Link>
             </SheetDescription>
           </SheetHeader>
