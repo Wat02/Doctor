@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { Button } from "../ui/button";
 import Link from "next/link";
 import MobileNav from "./MobileNav";
 
@@ -20,9 +19,9 @@ function Nav() {
           </div>
           <div className="col-span-2">
             <Link href="/registers">
-              <Button className=" bg-[#23AD7C] pl-[30px] pr-[30px] text-[18px]  mt-5">
+              <button className=" bg-[#23AD7C] pl-[30px] pr-[30px] text-[18px]  mt-5">
                 Login
-              </Button>
+              </button>
             </Link>
           </div>
         </div>
