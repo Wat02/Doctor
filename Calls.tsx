@@ -8,7 +8,7 @@ function Calls() {
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12 md:col-span-6 pb-[20px]">
             <Image
-              src="/assets/images/Photo1.png"
+              src="/assets/images/photo1.png"
               height={500}
               width={500}
               alt="virtual consulation"
