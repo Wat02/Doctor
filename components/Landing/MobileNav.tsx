@@ -29,7 +29,7 @@ function MobileNav() {
               width={1000}
               height={1000}
               alt="Logo"
-              className="mt-5 h-10 w-fit"
+              className="mt-5 w-fit"
             />
             <SheetTitle>
               <p className="flex gap-4 items-center p-2 rounded-lg w-full max-w-60 pt-[50px]">
