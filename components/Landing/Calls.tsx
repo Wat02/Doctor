@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import photo1 from "@/public/assets/images/photo1.png";
 
 function Calls() {
   return (
@@ -8,7 +9,7 @@ function Calls() {
         <div className="grid grid-cols-12 gap-1">
           <div className="col-span-12 md:col-span-6 pb-[20px]">
             <Image
-              src="/assets/images/photo1.png"
+              src={photo1}
               height={500}
               width={500}
               alt="virtual consulation"
